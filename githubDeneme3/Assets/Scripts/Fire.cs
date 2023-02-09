@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Fire : MonoBehaviour
 {
-    public float bulletSpeed = 200f;
+    public float bulletSpeed = 100f;
     // Start is called before the first frame update
     void Start()
     {
-        print("merba");
+       
     }
 
     // Update is called once per frame
