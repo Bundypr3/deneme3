@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Fire : MonoBehaviour
+public class merba : MonoBehaviour
 {
-    public float bulletSpeed = 200f;
     // Start is called before the first frame update
+    public Fire fire;
     void Start()
     {
-        print("merba");
+        fire.bulletSpeed = 5f;
     }
 
     // Update is called once per frame
